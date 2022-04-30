@@ -12,9 +12,12 @@ body{
     color: rgb(253, 192, 255);
 }
 .no{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 1, 1);
 }
+
 .qwe{
     float:right;
 
 }
+
+

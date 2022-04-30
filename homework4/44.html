@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 25px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 11px solid rgb(248, 1, 1);
+  border-radius: 54px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #f0d90d;
+  color: red;
+  padding: 14px 20px;
+  margin:  18px 183px;;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+
+div {
+  border-radius: 5px;
+  background-color: #190beb;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h1>個人資料調查表</h1>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname" style="font-size: 0.6cm;">姓名</label>
+    <input type="text" id="fname" name="firstname" placeholder="請輸入名字..........">
+
+    <label for="lname"style="font-size: 0.6cm;">學號</label>
+    <input type="text" id="lname" name="lastname" placeholder="請輸入學號........">
+
+    <labe1 for="country"style="font-size: 0.6cm;">居住地</labe1>
+    <select id="country" name="country">
+      <option value="台北市">台北市</option>
+      <option value="新北市">新北市</option>
+      <option value="桃園市">桃園市</option>
+      <option value="臺中市">臺中市</option>
+      <option value="臺南市">臺南市</option>
+      <option value="高雄市">高雄市</option>
+      <option value="其他">其他</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
