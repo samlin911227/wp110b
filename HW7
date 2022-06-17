@@ -1,0 +1,16 @@
+let text ="name:Samlin age:19 height:180 job:student phonenumber:0919689928 email:samlin911227@gmail.com";
+
+let re1=/[a-z]+/g;
+let re2=/[0-9]+/g;
+let re3=/([a-z0-9A-Z]+)/g;
+let re4=/([a-z0-9A-Z]+)/;
+let re5=/:([a-z0-9A-Z]+)/g;
+let re6 = /:\d+/g; 
+let re7 = /:\D+/g;
+console.log(text.match(re1));
+console.log(text.match(re2));
+console.log(text.match(re3));
+console.log(text.match(re4));
+console.log(text.match(re5));
+console.log(text.match(re6));
+console.log(text.match(re7));
